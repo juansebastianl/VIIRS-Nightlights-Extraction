@@ -8,7 +8,7 @@ The scripts should be run in the following order:
 
 1. `EOG_scrape.py` (no authentication needed), which compiles an up-to-date list of the monthly composites. 
 2. `get_token.sh EOG_USERNAME EOG_PASSWORD` (substituting your username and password as the commandline arguments), which generates an OAuth token (valid for 24 hours) to download from the server 
-3.  `download_viirs.sh` which will prompt you to download either the full dataset of a sample. 
+3.  `download_viirs.sh` which will prompt you to download either the full dataset or a sample. 
 
 Finally, I've included an example of how the rasters can be extracted into a datafile which can be used in the research context using `R`. 
 
