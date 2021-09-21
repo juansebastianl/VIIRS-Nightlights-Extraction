@@ -39,7 +39,7 @@ months <- str_split(viirs_filenames, "_") %>%
 ##############
 # Generic extraction function
 ##############
-extract_nightlights <- function(filename, month, year, 
+extract_nightlights <- function(filename, year,month, 
                                 shapefile = world, 
                                 gid = "GID_3", 
                                 fun = "mean"){
