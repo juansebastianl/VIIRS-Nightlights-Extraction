@@ -1,5 +1,5 @@
 ######################################################################################################
-# EOG_scrape.py 
+# example_extract_script.R
 # Written by Juan Sebastian Lozano
 # Description: 
 #   This is an example of how to extract the nightlights data from rasters in R
@@ -62,3 +62,5 @@ luminosity_panel <-
          MoreArgs = list(shapefile = south_sudan),  
          SIMPLIFY = F) %>% 
   bind_rows()
+
+luminosity_panel %>% write_csv("./example_luminosity.csv")
