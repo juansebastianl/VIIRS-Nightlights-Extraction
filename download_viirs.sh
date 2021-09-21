@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ######################################################################################################
-# nightlights_load.sh 
+# download_viirs.sh 
 # Written by Juan Sebastian Lozano
 # Dresciption: 
 #   This bash script downloads and unzips the VIIRS composites and then cleans up the directoru
