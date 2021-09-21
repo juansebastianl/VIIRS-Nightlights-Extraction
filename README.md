@@ -2,7 +2,7 @@
 
 Code to download and extract the monthly world composites VIIRs nighlights dataset found at the [Earth Observation Group](https://payneinstitute.mines.edu/eog/nighttime-lights/) 
 
-In order to download from the EOG website an account is which can be created [here](https://eogdata.mines.edu/products/register/). 
+In order to download from the EOG website you need an account is which can be created [here](https://eogdata.mines.edu/products/register/). 
 
 The scripts should be run in the following order: 
 
