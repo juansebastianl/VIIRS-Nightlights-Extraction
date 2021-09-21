@@ -3,7 +3,7 @@
 # Written by Juan Sebastian Lozano
 # Dresciption: 
 #   This script finds the download links of the VIIRS monthly composites produced by the Earth
-#   Observation Group at UC Boulder
+#   Observation Group at Colorodo School of Mines 
 # INPUT:
 # OUTPUT: ./links.csv
 ######################################################################################################
