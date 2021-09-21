@@ -37,7 +37,7 @@ fi
 
 token=$(cat ./eog_token.txt)
 echo "${token}"
-# Download images
+# Make CSV of download links
 file=./links.csv
 IFS="," 
 cat ${file} | while read -ra row; 
